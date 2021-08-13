@@ -1,9 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
-print('Dame un número:')
-num1=int(input())
-print('Dame un múmero:')
-num2=int(input())
+num1=int(input('Dame un número: '))
+num2=int(input('Dame un múmero: '))
 suma=num1+num2
 resta=num1-num2
 multi=num1*num2
