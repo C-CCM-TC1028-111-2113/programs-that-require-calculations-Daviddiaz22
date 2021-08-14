@@ -1,14 +1,14 @@
 def main():
     #escribe tu código abajo de esta línea
-number=int(input('Dame un número: '))
-num=int(input('Dame un múmero: '))
-multi=number*num
-suma=number+num
-resta=number-num
+num1 = int(input('Dame un número: '))
+num2 = int(input('Dame un número: '))
+suma = num1 + num2
+resta = num1 - num2
+mul= num1 * num2
 
-print('Suma: '+str(suma))
-print('Resta: '+str(resta))
-print('Multiplicación: '+str(multi))
+print('Suma: ' + str(suma))
+print('Resta: ' +str(resta))
+print('Multiplicación: ' +str(mul))
 
 if __name__ == '__main__':
     main()
